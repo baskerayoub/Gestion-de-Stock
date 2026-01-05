@@ -1,16 +1,41 @@
-# React + Vite
+# 📦 Gestion de Stock (Stock Management System)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack Stock Management System designed to manage products, categories, suppliers, and inventory movements efficiently.  
+Built using modern web technologies with scalability and clean architecture in mind.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## React Compiler
+- Product CRUD (Create, Read, Update, Delete)
+- Category management
+- Supplier management
+- Stock In / Stock Out tracking
+- Automatic stock quantity calculation
+- User authentication with JWT
+- Role-based access control (Admin / Staff)
+- Responsive user interface
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🧰 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Frontend
+- React.js
+- Tailwind CSS
+- Bootstrap
+- Axios
+- React Router
+
+### Backend
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+- JWT Authentication
+- bcrypt
+
+---
+
+## 🗂️ Project Structure
+
